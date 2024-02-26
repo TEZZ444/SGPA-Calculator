@@ -1,10 +1,11 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const port = 3000;
-const host = '0.0.0.0';
 
+app.use(cors());
 app.use(express.static('public'));
 
-app.listen(port, host, () => {
-  console.log(`Server is running at http://${host}:${port}`);
+app.listen(port, () => {
+  console.log(`Server is running at http://0.0.0.0:${port}`);
 });
