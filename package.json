@@ -6,7 +6,7 @@
   "scripts": {
   "build": "npm install",
   "start": "node server.js"
-}
+},
 
   "author": "Tejas Shettigar",
   "license": "Apache-2.0",
