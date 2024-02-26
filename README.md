@@ -2,7 +2,6 @@
 
  Simple CGPA/SGPA calculator 
 ```
-js
 npm i
 npm start
 ```
